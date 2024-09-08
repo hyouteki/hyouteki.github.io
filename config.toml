@@ -20,6 +20,9 @@ highlight_themes_css = [
   { theme = "solarized-light", filename = "syntax-theme-light.css" },
 ]
 smart_punctuation = true
+hard_breaks = false
+render_emoji = true
+unsafe = true
 
 [extra]
 # Sets browser theme color,
@@ -48,9 +51,10 @@ icons = true
 # Links used in the nav; any icon from https://icons.getbootstrap.com
 # can be used as the icon. The bi- prefix should not be added.
 links = [
-  {url = "$BASE_URL/blog", name = "Blog", icon = "journal-bookmark"},
-  {url = "$BASE_URL/project", name = "Project", icon = "pc-display"},
-  {url = "$BASE_URL/writing", name = "Writing", icon = "vector-pen"},
+  {url = "$BASE_URL/blogs", name = "Blogs", icon = "journal-bookmark"},
+  {url = "$BASE_URL/toys", name = "Toys", icon = "joystick"},
+  {url = "$BASE_URL/projects", name = "Projects", icon = "pc-display"},
+  {url = "$BASE_URL/writings", name = "Writings", icon = "vector-pen"},
   {url = "https://github.com/hyouteki", name = "", icon = "github"},
   {url = "https://www.linkedin.com/in/hyouteki/", name = "", icon = "linkedin"},
   {url = "https://twitter.com/mainlakshayhoon", name = "", icon = "twitter-x"},
