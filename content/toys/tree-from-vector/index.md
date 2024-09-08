@@ -1,6 +1,6 @@
 +++
 title = "Visualize tree from vector"
-date = 2023-10-20
+date = 2024-09-08
 authors = ["hyouteki"]
 description = "A visualization toy to convert a vector into a binary tree"
 [taxonomies]
