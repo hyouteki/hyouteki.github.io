@@ -1,6 +1,6 @@
 theme = "duckquill"
 title = "Ninthcircle"
-base_url = "hyouteki.github.io/"
+base_url = "https://hyouteki.github.io/"
 
 compile_sass = true
 minify_html = true
