@@ -4,7 +4,7 @@ date = 2024-09-08
 authors = ["hyouteki"]
 description = "A visualization toy to convert a vector into a binary tree"
 [taxonomies]
-tags = ["js", "graphviz"]
+tags = ["js", "graphviz", "visualization", "toy"]
 +++
 
 <br>

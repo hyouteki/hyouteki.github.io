@@ -1,5 +1,5 @@
 +++
-title = "Toys"
+title = "Blogs"
 description = ""
 sort_by = "date"
 template = "blog_list.html"
