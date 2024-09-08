@@ -6,6 +6,7 @@ minify_html = true
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 build_search_index = true
+theme = "duckquill"
 
 taxonomies = [
   {name = "tags", feed = true},
