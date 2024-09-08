@@ -1,0 +1,13 @@
+<footer class="footer">
+  {% if config.extra.footer.show_copyright %}
+  <p title="Last built at {{ now() | date(format='%F %R %Z') }}"><small>&copy; {{ config.title }}, {{ now() | date(format="%Y") }}</small></p>
+  {% endif %}
+
+  {% if config.extra.footer.show_source %}
+  <p><small><a href="{{ config.extra.source_url }}">Website source</a></small></p>
+  {% endif %}
+
+  {% if config.extra.footer.show_powered_by %}
+    <p><small>Powered by <a href="https://www.getzola.org">Zola</a> and <a href="https://daudix.codeberg.page/duckquill">Duckquill</a></small></p>
+  {% endif %}
+</footer>

@@ -1,0 +1,113 @@
+@use "sass:color";
+
+$primary-color-dark: #000000; // for dark theme
+$primary-color-alpha-dark: color.scale($primary-color-dark, $alpha: -80%);
+
+$primary-color-light: #ffffff; // for light theme
+$primary-color-alpha-light: color.scale($primary-color-light, $alpha: -80%);
+
+$bg-color-dark: color.scale($primary-color-dark, $lightness: -100%, $saturation: -50%);
+$bg-color-light: color.scale($primary-color-light, $lightness: 90%);
+
+// Define your gradients for each theme
+$crt-fg: $primary-color-light;
+$crt-bg: radial-gradient(
+  color.scale($primary-color-dark, $lightness: -80%),
+  color.scale($primary-color-dark, $lightness: -90%)
+);
+
+$nav-bg-dark: color.scale(
+  $bg-color-dark,
+  $alpha: -20%,
+  $lightness: 5%,
+  $saturation: -50%
+);
+
+$nav-bg-light: color.scale(
+  $bg-color-light,
+  $alpha: -20%,
+  $lightness: 5%,
+  $saturation: -50%
+);
+
+$glow-dark: 0 0 0 1px color.scale($primary-color-dark, $alpha: -95%),
+  0 2px 6px 2px color.scale($primary-color-dark, $alpha: -95%),
+  0 4px 24px 4px color.scale($primary-color-dark, $alpha: -90%);
+
+$glow-light: 0 0 0 1px color.scale($primary-color-light, $alpha: -95%),
+  0 2px 6px 2px color.scale($primary-color-light, $alpha: -95%),
+  0 4px 24px 4px color.scale($primary-color-light, $alpha: -90%);
+
+
+:root {
+  // COLORS
+  --bg-color: #{$bg-color-dark};
+  --crt-bg: #{$crt-bg};
+  --crt-fg: #{$crt-fg};
+  --fg-color: rgba(0, 0, 0, 0.8);
+  --fg-muted-1: rgba(0, 0, 0, 0.05);
+  --fg-muted-2: rgba(0, 0, 0, 0.1);
+  --fg-muted-3: rgba(0, 0, 0, 0.2);
+  --fg-muted-4: rgba(0, 0, 0, 0.5);
+  --fg-muted-5: rgba(0, 0, 0, 0.6);
+  --nav-bg: #{$nav-bg-dark};
+  --orange-bg: rgba(255, 120, 0, 0.1);
+  --orange-fg: rgb(255, 120, 0);
+  --primary-color-alpha: #{$primary-color-alpha-dark};
+  --primary-color: #{$primary-color-dark};
+  --purple-bg: rgba(145, 65, 172, 0.1);
+  --purple-fg: rgb(145, 65, 172);
+  --red-bg: rgba(224, 27, 36, 0.1);
+  --red-fg: rgb(224, 27, 36);
+  --blue-bg: rgba(36, 115, 212, 0.1);
+  --blue-fg: rgb(36, 115, 212);
+  --yellow-bg: rgba(156, 110, 3, 0.1);
+  --yellow-fg: rgb(156, 110, 3);
+
+  // VARIABLES
+  --active: 0.9;
+  --content-width: 720px;
+  --drop-shadow: drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07))
+    drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06));
+  --glow: #{$glow-dark};
+  --rounded-corner-smallest: 4px;
+  --rounded-corner-small: 8px;
+  --rounded-corner: 12px;
+  --shadow-raised: 0 0 0 1px rgba(0, 0, 0, 0.06),
+    0 2px 6px 2px rgba(0, 0, 0, 0.14), 0 4px 12px 4px rgba(0, 0, 0, 0.06);
+  --shadow: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 1px 3px 1px rgba(0, 0, 0, 0.07),
+    0 2px 6px 2px rgba(0, 0, 0, 0.03);
+  --transition-bezier: 350ms cubic-bezier(0.17, 0.89, 0.32, 1.28);
+  --transition-long: 800ms;
+  --transition-longer: 400ms;
+  --transition: 200ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    // COLORS
+    --primary-color: #{$primary-color-dark}; // This will apply when the system is set to dark mode
+    --primary-color-alpha: #{$primary-color-alpha-dark};
+    --bg-color: #{$bg-color-dark};
+    --glow: #{$glow-dark};
+    --nav-bg: #{$nav-bg-dark};
+    --fg-color: rgb(255, 255, 255);
+    --fg-muted-1: rgba(255, 255, 255, 0.05);
+    --fg-muted-2: rgba(255, 255, 255, 0.1);
+    --fg-muted-3: rgba(255, 255, 255, 0.2);
+    --fg-muted-4: rgba(255, 255, 255, 0.5);
+    --fg-muted-5: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary-color: #{$primary-color-light}; // This will apply when the system is set to light mode
+    --primary-color-alpha: #{$primary-color-alpha-light};
+    --bg-color: #{$bg-color-light};
+    --glow: #{$glow-light};
+    --nav-bg: #{$nav-bg-light};
+  }
+}
