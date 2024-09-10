@@ -1,6 +1,6 @@
 +++
 title = "Compiling nginx with http3 support"
-date = 2024-05-12
+date = 2024-09-10
 authors = ["hyouteki"]
 description = "This blog provides a step-by-step guide to compiling Nginx with HTTP/3 (QUIC) support. It covers installing OpenSSL 3.x, building Nginx from source, and configuring it to enable HTTP/3. The guide also includes instructions for setting up SSL certificates, modifying Nginx’s configuration for QUIC, and verifying HTTP/3 functionality using Wireshark. This tutorial is designed for those looking to enhance their web server’s performance and security with the latest protocols."
 [taxonomies]
