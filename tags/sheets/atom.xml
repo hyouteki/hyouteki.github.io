@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - sheets</title>
+    <link href="https://hyouteki.github.io/tags/sheets/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-01T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/sheets/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Please Hire Me - LeetCode Ques. Tracker</title>
+        <published>2023-12-01T00:00:00+00:00</published>
+        <updated>2023-12-01T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/please-hire-me/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/please-hire-me/</id>
+        <content type="html">&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot;&gt;repository&lt;&#x2F;a&gt; manages a  &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&quot;&gt;google spreadsheet&lt;&#x2F;a&gt; in which LeetCode users (volunteers) have to mandatorily solve a specified number of questions each week. Furthermore, if they fail to do so, the repository will mark them Dead on the sheet and will not track their progress any further.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-does-this-work&quot;&gt;How does this work?&lt;&#x2F;h2&gt;
+&lt;p&gt;There are two workflows (update and reset). The update workflow scrappes the latest 15 questions done by each alive user every 15 minutes. If any questions match the questions allocated this week, the workflow will mark it as Done. The reset workflow triggers once a week &lt;em&gt;(Tuesday 00:00 AM (GMT) or 05:30 AM (IST))&lt;&#x2F;em&gt;, and for any user if not found Done for questions allocated this week, the workflow will mark them as Dead and not track their progress any further.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;&#x2F;strong&gt;: Volunteers do not have to set up. Just solve questions mentioned in the &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&quot;&gt;spreadsheet&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot;&gt;repository&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Import this &lt;a href=&quot;https:&#x2F;&#x2F;hyouteki.github.io&#x2F;projects&#x2F;please-hire-me&#x2F;sheets-template.csv&quot;&gt;csv template&lt;&#x2F;a&gt; into your spreadsheet.&lt;&#x2F;li&gt;
+&lt;li&gt;Replace sample usernames with actual LeetCode user names.&lt;&#x2F;li&gt;
+&lt;li&gt;Get spreadsheet id from the sheets url. For example, spreadsheet id for this &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&#x2F;&quot;&gt;url&lt;&#x2F;a&gt; would be &lt;code&gt;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Replace the &lt;code&gt;SPREADSHEET_ID&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&#x2F;blob&#x2F;579b9b677db0fcb30f5642de9720016099540c8f&#x2F;src&#x2F;spreadsheet_editor.py#L10&quot;&gt;@&lt;&#x2F;a&gt; with yours.&lt;&#x2F;li&gt;
+&lt;li&gt;Follow &lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;sheets&#x2F;api&#x2F;quickstart&#x2F;python&quot;&gt;this&lt;&#x2F;a&gt; blog or watch &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=3wC-SCdJK2c&quot;&gt;this&lt;&#x2F;a&gt; video on how to setup google speadsheet api in your google cloud project.&lt;&#x2F;li&gt;
+&lt;li&gt;Then set up a repository secret using &lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;actions&#x2F;security-guides&#x2F;using-secrets-in-github-actions#creating-secrets-for-a-repository&quot;&gt;this&lt;&#x2F;a&gt;, having following credentials.&lt;pre data-lang=&quot;cpp&quot; class=&quot;language-cpp z-code&quot;&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;Name&lt;span class=&quot;z-keyword z-operator z-ternary z-c&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;TOKEN_JSON&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+Secret&lt;span class=&quot;z-keyword z-operator z-ternary z-c&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-comparison z-c&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;token&lt;span class=&quot;z-punctuation z-accessor z-dot z-c++&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-member z-c++&quot;&gt;json&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-c&quot;&gt;-&lt;&#x2F;span&gt;file&lt;span class=&quot;z-keyword z-operator z-comparison z-c&quot;&gt;&amp;gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-comment z-line z-double-slash z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-c&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt; made during the previous step
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

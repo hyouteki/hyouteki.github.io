@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - tcp</title>
+    <link href="https://hyouteki.github.io/tags/tcp/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-09-10T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/tcp/atom.xml</id>
+    <entry xml:lang="en">
+        <title>tcprecv - TCP Receiver</title>
+        <published>2023-09-10T00:00:00+00:00</published>
+        <updated>2023-09-10T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/tcprecv/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/tcprecv/</id>
+        <content type="html">&lt;p&gt;A simple and reliable implementation of a TCP receiver from scratch in C++. Which is capable of reassembling datagrams in the environment where the network might reorder datagrams, drop them or deliver them more than once.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;building-the-project&quot;&gt;Building the project&lt;&#x2F;h1&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; build&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-logical z-and z-shell&quot;&gt;&amp;amp;&amp;amp;&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;make&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h1 id=&quot;bytestream&quot;&gt;ByteStream&lt;&#x2F;h1&gt;
+&lt;p&gt;A ByteStream is a container that stores a collection of bytes from which bytes can be read or written to. These are some of the properties of this byte stream implementation:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bytes are written on the input side and read out from the output side.&lt;&#x2F;li&gt;
+&lt;li&gt;The byte stream is finite. The writer can end the input and no more bytes can be written.&lt;&#x2F;li&gt;
+&lt;li&gt;When the reader has read to the end of the stream, it will reach EOF, that is no more available bytes to read&lt;&#x2F;li&gt;
+&lt;li&gt;It is initialized with a particular capacity which limits the total amount of bytes that can be held in memory at once (which are not read yet).&lt;&#x2F;li&gt;
+&lt;li&gt;The writer would not be allowed to write into the byte stream if it exceeds the storage capacity.&lt;&#x2F;li&gt;
+&lt;li&gt;As the reader reads bytes from the stream, the writer is allowed to write more.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;&#x2F;strong&gt;: This ByteStream implementation should be used in a single threaded context; as locking or race conditions are not handled. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The interface for the ByteStream is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;byte_stream.hh&quot;&gt;byte_stream.hh&lt;&#x2F;a&gt; and the implementation is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;byte_stream.cc&quot;&gt;byte_stream.cc&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tests&quot;&gt;Tests&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; build&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;ctest&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt;&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;R&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-single z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-shell&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;^byte_stream&lt;span class=&quot;z-punctuation z-definition z-string z-end z-shell&quot;&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;assets&#x2F;byte_stream_test.png?raw=true&quot; width = &quot;1200&quot;&#x2F;&gt;
+&lt;h1 id=&quot;reassembler&quot;&gt;Reassembler&lt;&#x2F;h1&gt;
+&lt;p&gt;Reassembler is responsible for reassembling the string of bytes obtained from the sender and storing it in the ByteStream. The TCP sender is dividing its byte stream up into short segments (substrings not more than 1460 bytes apiece) so that they can fit inside a datagram. In reality, the network might reorder these datagrams, drop them or deliver them more than once.&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It is the job of the receiver to reassemble the segments into a contiguous stream of bytes that the sender originally intended. This is where reassembler comes into play. The Reassembler receives substrings from the sender which consists of a string of bytes along with an index of the first byte of the string that represents its position within the larger stream. As a simple example, let’s say the sender wants to send “abcdefgh” to the receiver and assume that the sender has divided the entire payload into two substrings “abcd” and “efgh”.&lt;br&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Now the indexes for these substream will be the following:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;[0] : abcd&lt;&#x2F;li&gt;
+&lt;li&gt;[4] : efgh&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Now on the receiver end lets say the the datagrams are received in following order (efgh,4) -&amp;gt; (abcd,0). The Reassembler using these unique indexes will paste the substrings into the byte stream in the correct order (abcdefgh).&lt;&#x2F;p&gt;
+&lt;p&gt;The interface for the Reassembler is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;stream_reassembler.hh&quot;&gt;stream_reassembler.hh&lt;&#x2F;a&gt; and the implementation is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;stream_reassembler.cc&quot;&gt;stream_reassembler.cc&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tests-1&quot;&gt;Tests&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;assets&#x2F;stream_reassembler_test.png?raw=true&quot; width = &quot;1200&quot;&#x2F;&gt;
+&lt;h1 id=&quot;tcp-receiver&quot;&gt;TCP receiver&lt;&#x2F;h1&gt;
+&lt;p&gt;TCP receiver accepts a TCPSegment from the sender and utilizes the Reassembler to correctly write the bytes into the byte stream. One thing to note is that apart from accepting the bytes, the TCPReciever also needs to generate messages back to the sender. These “receiver messages” are responsible for telling the sender:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Index of “first unassembled” byte called acknowledgement number or ackno.&lt;&#x2F;li&gt;
+&lt;li&gt;The available capacity in the output ByteStream. This is called the “window size”. Together the ackno and window size describe the receiver’s window: a range of indexes that the TCP sender is allowed to send. Using the window, the receiver can control the flow of incoming data, making the sender limit how much it sends until the receiver is ready for more.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The interface for the TCPReceiver is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;tcp_receiver.hh&quot;&gt;tcp_receiver.hh&lt;&#x2F;a&gt; and the implementation is available here &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;src&#x2F;tcp_receiver.cc&quot;&gt;tcp_receiver.cc&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tests-2&quot;&gt;Tests&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;assets&#x2F;tcp_receiver_test.png?raw=true&quot; width = &quot;1200&quot;&#x2F;&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;tcprecv&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>
