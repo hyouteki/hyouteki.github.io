@@ -1,3 +1,6 @@
 [submodule "themes/duckquill"]
 	path = themes/duckquill
 	url = https://codeberg.org/daudix/duckquill.git
+[submodule "content/toys/transposition-cipher"]
+	path = content/toys/transposition-cipher
+	url = https://hyouteki@github.com/lqshy/transposition-cipher/
