@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - cipher</title>
+    <link href="https://hyouteki.github.io/tags/cipher/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-08T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/cipher/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Transposition cipher in wasm</title>
+        <published>2024-09-08T00:00:00+00:00</published>
+        <updated>2024-09-08T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/toys/transposition-cipher/" type="text/html"/>
+        <id>https://hyouteki.github.io/toys/transposition-cipher/</id>
+        <content type="html">&lt;br&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;..&#x2F;styles.css&quot;&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+	&lt;label for=&quot;options&quot;&gt;Choose a mode&lt;&#x2F;label&gt;
+	&lt;select id=&quot;mode&quot; style=&quot;margin-bottom: 4px&quot;&gt;
+		&lt;option value=&quot;encrypt&quot;&gt;Encrypt&lt;&#x2F;option&gt;
+        &lt;option value=&quot;decrypt&quot;&gt;Decrypt&lt;&#x2F;option&gt;
+        &lt;option value=&quot;hash&quot;&gt;Hash&lt;&#x2F;option&gt;
+        &lt;option value=&quot;brute&quot;&gt;Brute force&lt;&#x2F;option&gt;
+    &lt;&#x2F;select&gt;
+    &lt;textarea id=&quot;text&quot; rows=&quot;3&quot; placeholder=&quot;Enter plaintext or ciphertext (max. length 1024)&quot;&gt;&lt;&#x2F;textarea&gt;
+    &lt;input id=&quot;key&quot; rows=&quot;3&quot; placeholder=&quot;Enter space seperated key&quot;&gt;&lt;&#x2F;input&gt;
+    &lt;button id=&quot;execute-btn&quot;&gt;Execute&lt;&#x2F;button&gt;
+	&lt;label class=&quot;output&quot; id=&quot;result&quot; style=&quot;margin-top: 10px&quot;&gt;Output will appear here&lt;&#x2F;label&gt;
+    &lt;script type=&quot;module&quot; src=&quot;.&#x2F;main.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>probing SEcurity de NETwork</title>
+        <published>2024-04-05T00:00:00+00:00</published>
+        <updated>2024-04-05T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/senet/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/senet/</id>
+        <content type="html">&lt;p&gt;Repository for exploring cryptographic algorithms&#x2F;techniques and their applications in regards to security of network. This includes from scratch implementations of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Transposition_cipher&quot;&gt;Transposition cipher&lt;&#x2F;a&gt; in C and &lt;a href=&quot;https:&#x2F;&#x2F;flatassembler.net&#x2F;&quot;&gt;FASM&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Advanced_Encryption_Standard&quot;&gt;AES128&lt;&#x2F;a&gt; in Python&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;RSA_(cryptosystem)&quot;&gt;RSA&lt;&#x2F;a&gt; in C using &amp;lt;gnu&#x2F;gmp.h&amp;gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Public Key Distribution Authority (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Public_key_infrastructure&quot;&gt;PKDA&lt;&#x2F;a&gt;) in C using RSA&lt;&#x2F;li&gt;
+&lt;li&gt;GNU&#x2F;GMP’s &lt;a href=&quot;https:&#x2F;&#x2F;gmplib.org&#x2F;manual&#x2F;Initializing-Integers&quot;&gt;mpz t&lt;&#x2F;a&gt; in C and C++&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Diffie%E2%80%93Hellman_key_exchange&quot;&gt;Diffie-hellman&lt;&#x2F;a&gt; in C++&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;senet&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;senet&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

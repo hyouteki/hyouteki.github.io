@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - tauri</title>
+    <link href="https://hyouteki.github.io/tags/tauri/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-12-28T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/tauri/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Winnead - Windows Text Editor</title>
+        <published>2023-12-28T00:00:00+00:00</published>
+        <updated>2023-12-28T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/winnead/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/winnead/</id>
+        <content type="html">&lt;p&gt;A native Windows text editor made with &lt;a href=&quot;https:&#x2F;&#x2F;tauri.app&#x2F;&quot;&gt;Tauri&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;react.dev&#x2F;&quot;&gt;React&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.npmjs.com&#x2F;&quot;&gt;NPM&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;monaco-editor&quot;&gt;Monaco Editor&lt;&#x2F;a&gt;. It includes built-in features such as a file explorer tree and a terminal with PowerShell.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;images&#x2F;readme.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;images&#x2F;config.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;File explorer&lt;&#x2F;li&gt;
+&lt;li&gt;Terminal with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;PowerShell&#x2F;PowerShell&quot;&gt;powershell&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;compile-from-source-code&quot;&gt;Compile from source code&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Winnead&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;npm&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; run tauri dev&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Winnead&#x2F;releases&#x2F;download&#x2F;v0.0.1&#x2F;Winnead_0.0.1_x64_en-US.msi&quot; style=&quot;margin: 10px;&quot;&gt;x86_64 installer.msi&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Winnead&#x2F;releases&#x2F;download&#x2F;v0.0.1&#x2F;Winnead_0.0.1_x64-setup.exe&quot; style=&quot;margin: 10px;&quot;&gt;x86_64 setup.exe&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

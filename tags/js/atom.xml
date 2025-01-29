@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - js</title>
+    <link href="https://hyouteki.github.io/tags/js/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-08T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/js/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Transposition cipher in wasm</title>
+        <published>2024-09-08T00:00:00+00:00</published>
+        <updated>2024-09-08T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/toys/transposition-cipher/" type="text/html"/>
+        <id>https://hyouteki.github.io/toys/transposition-cipher/</id>
+        <content type="html">&lt;br&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;..&#x2F;styles.css&quot;&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+	&lt;label for=&quot;options&quot;&gt;Choose a mode&lt;&#x2F;label&gt;
+	&lt;select id=&quot;mode&quot; style=&quot;margin-bottom: 4px&quot;&gt;
+		&lt;option value=&quot;encrypt&quot;&gt;Encrypt&lt;&#x2F;option&gt;
+        &lt;option value=&quot;decrypt&quot;&gt;Decrypt&lt;&#x2F;option&gt;
+        &lt;option value=&quot;hash&quot;&gt;Hash&lt;&#x2F;option&gt;
+        &lt;option value=&quot;brute&quot;&gt;Brute force&lt;&#x2F;option&gt;
+    &lt;&#x2F;select&gt;
+    &lt;textarea id=&quot;text&quot; rows=&quot;3&quot; placeholder=&quot;Enter plaintext or ciphertext (max. length 1024)&quot;&gt;&lt;&#x2F;textarea&gt;
+    &lt;input id=&quot;key&quot; rows=&quot;3&quot; placeholder=&quot;Enter space seperated key&quot;&gt;&lt;&#x2F;input&gt;
+    &lt;button id=&quot;execute-btn&quot;&gt;Execute&lt;&#x2F;button&gt;
+	&lt;label class=&quot;output&quot; id=&quot;result&quot; style=&quot;margin-top: 10px&quot;&gt;Output will appear here&lt;&#x2F;label&gt;
+    &lt;script type=&quot;module&quot; src=&quot;.&#x2F;main.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Visualize tree from vector</title>
+        <published>2024-09-08T00:00:00+00:00</published>
+        <updated>2024-09-08T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/toys/tree-from-vector/" type="text/html"/>
+        <id>https://hyouteki.github.io/toys/tree-from-vector/</id>
+        <content type="html">&lt;br&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;..&#x2F;styles.css&quot;&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;viz.js&#x2F;2.1.2&#x2F;viz.js&quot;&gt;&lt;&#x2F;script&gt;
+    &lt;script src=&quot;https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;viz.js&#x2F;2.1.2&#x2F;full.render.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;head&gt;
+&lt;body&gt;
+    &lt;textarea id=&quot;vector&quot; rows=&quot;3&quot;&gt;1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3&lt;&#x2F;textarea&gt;
+    &lt;button onclick=&quot;generateTree()&quot;&gt;Generate Tree&lt;&#x2F;button&gt;
+    &lt;div id=&quot;graph&quot;&gt;&lt;&#x2F;div&gt;
+    &lt;script src=&quot;.&#x2F;index.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;body&gt;
+&lt;&#x2F;html&gt;</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Wikiracing - Chromium Extension</title>
+        <published>2024-02-14T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/wikiracing/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/wikiracing/</id>
+        <content type="html">&lt;p&gt;A chromium extension for facilitating &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikiracing&quot;&gt;wikiracing&lt;&#x2F;a&gt; among participants.&lt;&#x2F;p&gt;
+&lt;img src=&quot;.&#x2F;thumbnail.png&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Download and extract &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&#x2F;archive&#x2F;refs&#x2F;heads&#x2F;main.zip&quot;&gt;ZIP&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Navigate to extensions on your chromium browser.&lt;&#x2F;li&gt;
+&lt;li&gt;Enable &lt;code&gt;developer mode&lt;&#x2F;code&gt;.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;e94d071c-6b41-4acb-871e-61f056e41d5f&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Click &lt;code&gt;load-unpacked&lt;&#x2F;code&gt;.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;cea87e65-c31b-4016-aed4-499fca609b44&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Enable wiki racing extension.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;7e5730f1-e19b-467f-9709-1e77ec5a3068&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Pin the extension for ease of use.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&#x2F;archive&#x2F;refs&#x2F;heads&#x2F;main.zip&quot; style=&quot;margin: 10px;&quot;&gt;Download ZIP&lt;&#x2F;a&gt;</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Winnead - Windows Text Editor</title>
+        <published>2023-12-28T00:00:00+00:00</published>
+        <updated>2023-12-28T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/winnead/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/winnead/</id>
+        <content type="html">&lt;p&gt;A native Windows text editor made with &lt;a href=&quot;https:&#x2F;&#x2F;tauri.app&#x2F;&quot;&gt;Tauri&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;react.dev&#x2F;&quot;&gt;React&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.npmjs.com&#x2F;&quot;&gt;NPM&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;microsoft&#x2F;monaco-editor&quot;&gt;Monaco Editor&lt;&#x2F;a&gt;. It includes built-in features such as a file explorer tree and a terminal with PowerShell.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;images&#x2F;readme.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;images&#x2F;config.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;File explorer&lt;&#x2F;li&gt;
+&lt;li&gt;Terminal with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;PowerShell&#x2F;PowerShell&quot;&gt;powershell&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;compile-from-source-code&quot;&gt;Compile from source code&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Winnead&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;npm&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; run tauri dev&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Winnead&#x2F;releases&#x2F;download&#x2F;v0.0.1&#x2F;Winnead_0.0.1_x64_en-US.msi&quot; style=&quot;margin: 10px;&quot;&gt;x86_64 installer.msi&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Winnead&#x2F;releases&#x2F;download&#x2F;v0.0.1&#x2F;Winnead_0.0.1_x64-setup.exe&quot; style=&quot;margin: 10px;&quot;&gt;x86_64 setup.exe&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Winnead&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>
