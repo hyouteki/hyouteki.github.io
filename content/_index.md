@@ -5,8 +5,8 @@
 ```
 ███╗   ██╗██╗███╗   ██╗████████╗██╗  ██╗     ██████╗██╗██████╗  ██████╗██╗     ███████╗
 ████╗  ██║██║████╗  ██║╚══██╔══╝██║  ██║    ██╔════╝██║██╔══██╗██╔════╝██║     ██╔════╝
-██╔██╗ ██║██║██╔██╗ ██║   ██║   ███████║    ██║     ██║██████╔╝██║     ██║     █████╗
-██║╚██╗██║██║██║╚██╗██║   ██║   ██╔══██║    ██║     ██║██╔══██╗██║     ██║     ██╔══╝
+██╔██╗ ██║██║██╔██╗ ██║   ██║   ███████║    ██║     ██║██████╔╝██║     ██║     █████╗  
+██║╚██╗██║██║██║╚██╗██║   ██║   ██╔══██║    ██║     ██║██╔══██╗██║     ██║     ██╔══╝  
 ██║ ╚████║██║██║ ╚████║   ██║   ██║  ██║    ╚██████╗██║██║  ██║╚██████╗███████╗███████╗
 ╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝     ╚═════╝╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝╚══════╝
 ```
@@ -29,5 +29,6 @@ Alias: Nosferatu, Ninthcircle, Hyouteki
 <a class="inline-button" href="mailto:lakshay21060@iiitd.ac.in" target="_blank" style="margin-bottom:10px;">Mail</a>
 <a class="inline-button" href="https://myanimelist.net/profile/Hyouteki" target="_blank" style="margin-bottom:10px;">MyAnimeList</a>
 <a class="inline-button" href="https://www.reddit.com/user/LuckyDGreat" target="_blank" style="margin-bottom:10px;">Reddit</a>
-<a class="inline-button" href="https://open.spotify.com/user/31v5izzempw42wfp46phlvb2qebq?si=50875ba21f134bb3" style="margin-bottom:10px;">Spotify</a>
+<a class="inline-button" href="https://open.spotify.com/user/31v5izzempw42wfp46phlvb2qebq?si=50875ba21f134bb3" target="_blank" style="margin-bottom:10px;">Spotify</a>
+<a class="inline-button" href="https://x.com/mainlakshayhoon" target="_blank" style="margin-bottom:10px;">Twitter</a>
 <a class="inline-button" href="https://www.youtube.com/@hyoutek1" target="_blank" style="margin-bottom:10px;">Youtube</a>
