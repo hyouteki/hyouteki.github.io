@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - assembler</title>
+    <link href="https://hyouteki.github.io/tags/assembler/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-06-26T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/assembler/atom.xml</id>
+    <entry xml:lang="en">
+        <title>simasm - Simulator &amp; Assembler for custom ISA</title>
+        <published>2022-06-26T00:00:00+00:00</published>
+        <updated>2022-06-26T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/assembler-simulator/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/assembler-simulator/</id>
+        <content type="html">&lt;p&gt;Developed an assembler to convert assembly code adhering to a particular ISA into bytecode, alongside a simulator for dynamic execution of the bytecode. The simulator displays the memory layout at each stage of execution.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Simple-assembler-and-simulator&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;</content>
+    </entry>
+</feed>

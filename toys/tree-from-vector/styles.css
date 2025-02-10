@@ -1,0 +1,24 @@
+#vector {
+    width: 100%;
+    resize: vertical;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s;
+}
+#vector:focus {
+    border-color: black;
+    box-shadow: 0 0 10px black;
+}
+#graph {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - processing</title>
+    <link href="https://hyouteki.github.io/tags/processing/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-06-18T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/processing/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Summer Undergraduate Research Fellowship Project</title>
+        <published>2023-06-18T00:00:00+00:00</published>
+        <updated>2023-06-18T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/surf/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/surf/</id>
+        <content type="html">&lt;p&gt;Utilizing the capabilities of ultrasonic sensors to capture and interpret object motions within a spatial domain monitored by an array of these sensors. Capturing discrete motion like tapping or continuous motion like drawing, which involves 2D space using proximity sensors like ultrasonic sensors, Arduino and a laptop. Marking an area on a smooth surface as workspace and putting proximity sensors on front and adjacent of it. Which captures distances and maps it to coordinates which we can use to recreate that motion in a program or just take it as input. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;applications-made&quot;&gt;Applications made&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;calculator&quot;&gt;Calculator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;main&quot;&gt;Drawing Board&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;edm&quot;&gt;EDM&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;interpolation_demo&quot;&gt;Interpolation Demo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;piano&quot;&gt;Piano&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;smiley.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;interpolation_demo.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;blob.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;Surf_Project_Report.pdf&quot; style=&quot;margin: 10px;&quot;&gt;Report&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

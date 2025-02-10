@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - dns-forwarder</title>
+    <link href="https://hyouteki.github.io/tags/dns-forwarder/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-12T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/dns-forwarder/atom.xml</id>
+    <entry xml:lang="en">
+        <title>dnsfwdr - DNS Forwarder</title>
+        <published>2024-05-12T00:00:00+00:00</published>
+        <updated>2024-05-12T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/dnsfwdr/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/dnsfwdr/</id>
+        <content type="html">&lt;p&gt;A basic DNS forwarder server in C with capabilities including request caching, request blocking, forwarding requests, and fallback to different authoritative servers when necessary.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;dnsfwdr&#x2F;blob&#x2F;main&#x2F;images&#x2F;server.png?raw=true&quot; alt=&quot;Server&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;DNS Forwarding Server&lt;&#x2F;figcaption&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;dnsfwdr&#x2F;blob&#x2F;main&#x2F;images&#x2F;client.png?raw=true&quot; alt=&quot;Client&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;The client requests the DNS forwarding server (running at localhost:8989) to resolve the address of the domain name &quot;www.google.com&quot;&lt;&#x2F;figcaption&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Clone the repository via &lt;code&gt;git clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;dnsfwdr&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Build the project using &lt;code&gt;make&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Run the DNS forwarding server using &lt;code&gt;.&#x2F;server&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Test the server using a dummy client via make &lt;code&gt;client&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;codingchallenges.fyi&#x2F;challenges&#x2F;challenge-dns-forwarder&quot;&gt;Coding Challenges - Build Your Own DNS Forwarder&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc1035#section-4.1&quot;&gt;RFC 1035 Section 4.1.1 - DNS query format&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.cse.yorku.ca&#x2F;~oz&#x2F;hash.html&quot;&gt;Hash functions - sdbm&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;dnsfwdr&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;dnsfwdr&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

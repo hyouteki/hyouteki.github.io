@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - camera</title>
+    <link href="https://hyouteki.github.io/tags/camera/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-09-17T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/camera/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Anode</title>
+        <published>2023-09-17T00:00:00+00:00</published>
+        <updated>2023-09-17T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/btp/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/btp/</id>
+        <content type="html">&lt;p&gt;A native framework for detecting anomalies in CCTV camera footage, emphasizing a comprehensive machine learning pipeline comprising different deep learning architectures such as CNN, LSTM, Optical Flow, SNN, tailored specifically for anomaly detection.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&#x2F;blob&#x2F;main&#x2F;REPORT.pdf&quot; style=&quot;margin: 10px;&quot;&gt;Report&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

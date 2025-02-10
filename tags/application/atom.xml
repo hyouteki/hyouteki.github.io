@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - application</title>
+    <link href="https://hyouteki.github.io/tags/application/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-12-22T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/application/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Memey - Meme&#x2F;GIF Viewer Android Application</title>
+        <published>2022-12-22T00:00:00+00:00</published>
+        <updated>2022-12-22T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/memey/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/memey/</id>
+        <content type="html">&lt;p&gt;Wanna enjoy some memes and GIFs? Memey is the perfect app for you. Built with Kotlin, it offers a sleek, cheerful, and awesome UI. You can search, save, and submit memes and GIFs, making it your go-to app for meme enjoyment.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;random-meme-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;trending-gifs-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;search-memes-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;search-gifs-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;add-meme-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;single-meme-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;more-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Memey&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;settings-new.jpeg?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;⭐ A goto app for enjoying &lt;strong&gt;memes&lt;&#x2F;strong&gt; and &lt;strong&gt;gifs&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;😎 Simple, Sleek, Cheerful &amp;amp; Awesome UI&lt;&#x2F;li&gt;
+&lt;li&gt;💯 Extensive Settings&lt;&#x2F;li&gt;
+&lt;li&gt;📑 Multiple layouts to choose from&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;meme&quot;&gt;Meme&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;⏩ Share memes with your &lt;strong&gt;hommies&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;🔎 Search memes by &lt;strong&gt;Subreddit&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;♥️ Mark memes as favorite&lt;&#x2F;li&gt;
+&lt;li&gt;📲 Submit your own memes&lt;&#x2F;li&gt;
+&lt;li&gt;🔭 View memes made by other &lt;strong&gt;Memey users&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;gif&quot;&gt;Gif&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;⏩ Share gifs with your &lt;strong&gt;hommies&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;📈 View &lt;strong&gt;Trending gifs&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;♥️ Mark gifs as favorite&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;courtesy&quot;&gt;Courtesy&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;D3vd&#x2F;Meme_Api.git&quot;&gt;D3vd&#x2F;Meme_Api&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;developers.giphy.com&#x2F;&quot;&gt;GIPHY Developers Api&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;memey&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Memey&#x2F;raw&#x2F;main&#x2F;Memey.apk&quot; style=&quot;margin: 10px;&quot;&gt;Download Application&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;memey&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;memey&#x2F;blob&#x2F;main&#x2F;SECURITY.md&quot; style=&quot;margin: 10px;&quot;&gt;Security Policy&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>

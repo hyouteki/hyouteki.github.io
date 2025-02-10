@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - python</title>
+    <link href="https://hyouteki.github.io/tags/python/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-04-05T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/python/atom.xml</id>
+    <entry xml:lang="en">
+        <title>probing SEcurity de NETwork</title>
+        <published>2024-04-05T00:00:00+00:00</published>
+        <updated>2024-04-05T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/senet/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/senet/</id>
+        <content type="html">&lt;p&gt;Repository for exploring cryptographic algorithms&#x2F;techniques and their applications in regards to security of network. This includes from scratch implementations of:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Transposition_cipher&quot;&gt;Transposition cipher&lt;&#x2F;a&gt; in C and &lt;a href=&quot;https:&#x2F;&#x2F;flatassembler.net&#x2F;&quot;&gt;FASM&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Advanced_Encryption_Standard&quot;&gt;AES128&lt;&#x2F;a&gt; in Python&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;RSA_(cryptosystem)&quot;&gt;RSA&lt;&#x2F;a&gt; in C using &amp;lt;gnu&#x2F;gmp.h&amp;gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Public Key Distribution Authority (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Public_key_infrastructure&quot;&gt;PKDA&lt;&#x2F;a&gt;) in C using RSA&lt;&#x2F;li&gt;
+&lt;li&gt;GNU&#x2F;GMP’s &lt;a href=&quot;https:&#x2F;&#x2F;gmplib.org&#x2F;manual&#x2F;Initializing-Integers&quot;&gt;mpz t&lt;&#x2F;a&gt; in C and C++&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Diffie%E2%80%93Hellman_key_exchange&quot;&gt;Diffie-hellman&lt;&#x2F;a&gt; in C++&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;senet&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;senet&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Please Hire Me - LeetCode Ques. Tracker</title>
+        <published>2023-12-01T00:00:00+00:00</published>
+        <updated>2023-12-01T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/please-hire-me/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/please-hire-me/</id>
+        <content type="html">&lt;p&gt;This &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot;&gt;repository&lt;&#x2F;a&gt; manages a  &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&quot;&gt;google spreadsheet&lt;&#x2F;a&gt; in which LeetCode users (volunteers) have to mandatorily solve a specified number of questions each week. Furthermore, if they fail to do so, the repository will mark them Dead on the sheet and will not track their progress any further.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-does-this-work&quot;&gt;How does this work?&lt;&#x2F;h2&gt;
+&lt;p&gt;There are two workflows (update and reset). The update workflow scrappes the latest 15 questions done by each alive user every 15 minutes. If any questions match the questions allocated this week, the workflow will mark it as Done. The reset workflow triggers once a week &lt;em&gt;(Tuesday 00:00 AM (GMT) or 05:30 AM (IST))&lt;&#x2F;em&gt;, and for any user if not found Done for questions allocated this week, the workflow will mark them as Dead and not track their progress any further.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;&#x2F;strong&gt;: Volunteers do not have to set up. Just solve questions mentioned in the &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&quot;&gt;spreadsheet&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot;&gt;repository&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Import this &lt;a href=&quot;https:&#x2F;&#x2F;hyouteki.github.io&#x2F;projects&#x2F;please-hire-me&#x2F;sheets-template.csv&quot;&gt;csv template&lt;&#x2F;a&gt; into your spreadsheet.&lt;&#x2F;li&gt;
+&lt;li&gt;Replace sample usernames with actual LeetCode user names.&lt;&#x2F;li&gt;
+&lt;li&gt;Get spreadsheet id from the sheets url. For example, spreadsheet id for this &lt;a href=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;spreadsheets&#x2F;d&#x2F;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&#x2F;&quot;&gt;url&lt;&#x2F;a&gt; would be &lt;code&gt;1NcB1bmKRg-j56KUsd7WNHYpkVBx0S7Jkr26LyeJW8HQ&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Replace the &lt;code&gt;SPREADSHEET_ID&lt;&#x2F;code&gt; &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&#x2F;blob&#x2F;579b9b677db0fcb30f5642de9720016099540c8f&#x2F;src&#x2F;spreadsheet_editor.py#L10&quot;&gt;@&lt;&#x2F;a&gt; with yours.&lt;&#x2F;li&gt;
+&lt;li&gt;Follow &lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;sheets&#x2F;api&#x2F;quickstart&#x2F;python&quot;&gt;this&lt;&#x2F;a&gt; blog or watch &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=3wC-SCdJK2c&quot;&gt;this&lt;&#x2F;a&gt; video on how to setup google speadsheet api in your google cloud project.&lt;&#x2F;li&gt;
+&lt;li&gt;Then set up a repository secret using &lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;actions&#x2F;security-guides&#x2F;using-secrets-in-github-actions#creating-secrets-for-a-repository&quot;&gt;this&lt;&#x2F;a&gt;, having following credentials.&lt;pre data-lang=&quot;cpp&quot; class=&quot;language-cpp z-code&quot;&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span class=&quot;z-source z-c++&quot;&gt;Name&lt;span class=&quot;z-keyword z-operator z-ternary z-c&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-double z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;TOKEN_JSON&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+Secret&lt;span class=&quot;z-keyword z-operator z-ternary z-c&quot;&gt;:&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-comparison z-c&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;token&lt;span class=&quot;z-punctuation z-accessor z-dot z-c++&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-variable z-other z-readwrite z-member z-c++&quot;&gt;json&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-arithmetic z-c&quot;&gt;-&lt;&#x2F;span&gt;file&lt;span class=&quot;z-keyword z-operator z-comparison z-c&quot;&gt;&amp;gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-comment z-line z-double-slash z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-comment z-c&quot;&gt;&#x2F;&#x2F;&lt;&#x2F;span&gt; made during the previous step
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;please-hire-me&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>binv - BINary Visualizer</title>
+        <published>2023-10-20T00:00:00+00:00</published>
+        <updated>2023-10-20T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/binv/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/binv/</id>
+        <content type="html">&lt;p&gt;A dynamic binary visualizer designed for visualizing file binaries independent of their file formats. It can be used to predict the class of new file formats without requiring prior knowledge or reverse engineering of binaries.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;wav_demo.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;figcaption&gt;.WAV file&lt;&#x2F;figcaption&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;ogg_demo.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;figcaption&gt;.OGG file&lt;&#x2F;figcaption&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;binv_demo.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;figcaption&gt;binv application itself&lt;&#x2F;figcaption&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; binv&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;pip&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; install&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;r&lt;&#x2F;span&gt; requirements.txt&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;python&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; binv.py&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;courtesy&quot;&gt;Courtesy&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=4bM3Gut1hIk&quot;&gt;Concept&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;samplelib.com&#x2F;sample-wav.html&quot;&gt;Demo WAV file&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;getsamplefiles.com&#x2F;sample-audio-files&#x2F;ogg&quot;&gt;Demo OGG file&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;binv&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Anode</title>
+        <published>2023-09-17T00:00:00+00:00</published>
+        <updated>2023-09-17T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/btp/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/btp/</id>
+        <content type="html">&lt;p&gt;A native framework for detecting anomalies in CCTV camera footage, emphasizing a comprehensive machine learning pipeline comprising different deep learning architectures such as CNN, LSTM, Optical Flow, SNN, tailored specifically for anomaly detection.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&#x2F;blob&#x2F;main&#x2F;REPORT.pdf&quot; style=&quot;margin: 10px;&quot;&gt;Report&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;btp&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Summer Undergraduate Research Fellowship Project</title>
+        <published>2023-06-18T00:00:00+00:00</published>
+        <updated>2023-06-18T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/surf/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/surf/</id>
+        <content type="html">&lt;p&gt;Utilizing the capabilities of ultrasonic sensors to capture and interpret object motions within a spatial domain monitored by an array of these sensors. Capturing discrete motion like tapping or continuous motion like drawing, which involves 2D space using proximity sensors like ultrasonic sensors, Arduino and a laptop. Marking an area on a smooth surface as workspace and putting proximity sensors on front and adjacent of it. Which captures distances and maps it to coordinates which we can use to recreate that motion in a program or just take it as input. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;applications-made&quot;&gt;Applications made&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;calculator&quot;&gt;Calculator&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;main&quot;&gt;Drawing Board&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;edm&quot;&gt;EDM&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;interpolation_demo&quot;&gt;Interpolation Demo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;tree&#x2F;main&#x2F;applications&#x2F;piano&quot;&gt;Piano&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;&#x2F;h2&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;smiley.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;interpolation_demo.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;assets&#x2F;blob.png?raw=true&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;Surf_Project_Report.pdf&quot; style=&quot;margin: 10px;&quot;&gt;Report&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Surf-project&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>malebolge - ML algorithms implementions from scratch</title>
+        <published>2023-01-28T00:00:00+00:00</published>
+        <updated>2023-01-28T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/malebolge/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/malebolge/</id>
+        <content type="html">&lt;p&gt;Machine Learning algorithms implementation from scratch in python using just numpy. This involves:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Unsupervised algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;fuzzy_cmeans.py&quot;&gt;Fuzzy c means&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;kmeans.py&quot;&gt;K means&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;lof.py&quot;&gt;Local Outlier Factor&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;mahalanobis.py&quot;&gt;Mahalanobis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;meanshift.py&quot;&gt;Mean shift&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Supervised algorithms
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;knn.py&quot;&gt;K Nearest Neighbours&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;log_reg.py&quot;&gt;Logistic Regression&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;lin_reg.py&quot;&gt;Linear Regression&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Analysis techniques
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;fda.py&quot;&gt;Fisher Discriminant Analysis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;ica.py&quot;&gt;Independent Component Analysis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;lda.py&quot;&gt;Linear Discrimiant Analysis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;pca.py&quot;&gt;Principle Component Analysis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;silhouette.py&quot;&gt;Silhouette Analysis&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Helper classes
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;cluster.py&quot;&gt;Cluster&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;image_actor.py&quot;&gt;Image Actor&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;point.py&quot;&gt;Point&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;pip&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; install&lt;span class=&quot;z-variable z-parameter z-option z-shell&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-parameter z-shell&quot;&gt; -&lt;&#x2F;span&gt;r&lt;&#x2F;span&gt; requirements.txt&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;malebolge&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License GPL-3.0&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>Zuber - Cab booking DMBS framework</title>
+        <published>2023-01-25T00:00:00+00:00</published>
+        <updated>2023-01-25T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/zuber/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/zuber/</id>
+        <content type="html">&lt;p&gt;A cab booking application DBMS framework featuring OLAP queries, triggers, transactions, a comprehensive schema, over 50 queries, and a populated dummy database. It includes a CLI user interface for interacting with the database.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Zuber&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;SOURCE&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &#x2F;path&#x2F;to&#x2F;Zuber&#x2F;repository&#x2F;zuber-schema.sql&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;SOURCE&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &#x2F;path&#x2F;to&#x2F;Zuber&#x2F;repository&#x2F;zuber-data.sql&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;SOURCE&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &#x2F;path&#x2F;to&#x2F;Zuber&#x2F;repository&#x2F;zuber-queries.sql&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;SOURCE&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &#x2F;path&#x2F;to&#x2F;Zuber&#x2F;repository&#x2F;zuber-triggers.sql&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;SOURCE&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; &#x2F;path&#x2F;to&#x2F;Zuber&#x2F;repository&#x2F;zuber-olap.sql&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; class=&quot;language-python z-code&quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;z-source z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;this&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;__databaseInstance&lt;&#x2F;span&gt;&lt;&#x2F;span&gt; &lt;span class=&quot;z-keyword z-operator z-assignment z-python&quot;&gt;=&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function-call z-python&quot;&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;mysql&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;connector&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-accessor z-dot z-python&quot;&gt;.&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-qualified-name z-python&quot;&gt;&lt;span class=&quot;z-variable z-function z-python&quot;&gt;&lt;span class=&quot;z-meta z-generic-name z-python&quot;&gt;connect&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-arguments z-begin z-python&quot;&gt;(&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-variable z-parameter z-python&quot;&gt;host&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-python&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;localhost&lt;span class=&quot;z-punctuation z-definition z-string z-end z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-arguments z-python&quot;&gt;,&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-variable z-parameter z-python&quot;&gt;user&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-python&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;root&lt;span class=&quot;z-punctuation z-definition z-string z-end z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-arguments z-python&quot;&gt;,&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-variable z-parameter z-python&quot;&gt;password&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-python&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;mysql1234&lt;span class=&quot;z-punctuation z-definition z-string z-end z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-separator z-arguments z-python&quot;&gt;,&lt;&#x2F;span&gt;
+    &lt;span class=&quot;z-variable z-parameter z-python&quot;&gt;database&lt;&#x2F;span&gt;&lt;span class=&quot;z-keyword z-operator z-assignment z-python&quot;&gt;=&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-string z-python&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-python&quot;&gt;zuber&lt;span class=&quot;z-punctuation z-definition z-string z-end z-python&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-punctuation z-section z-arguments z-end z-python&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Replace host, user &amp;amp; password &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Zuber&#x2F;blob&#x2F;9c486aa4736450be07a5a4c03d16a84f3355e653&#x2F;CLI&#x2F;database.py#L10C1-L12C34&quot;&gt;@&lt;&#x2F;a&gt; with your mysql credentials.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Zuber&#x2F;CLI&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;pip&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; install termcolor tabulate&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;python&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; zuber_client.py&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;python&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; zuber_admin.py&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;requirement-document.md&quot;&gt;Requirement document&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;miro.com&#x2F;app&#x2F;board&#x2F;uXjVPr03MU0=&#x2F;?share_link_id=806622025749&quot;&gt;ER model &amp;amp; relational schema&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Database schema &amp;amp; population
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-schema.sql&quot;&gt;Database schema&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-data.sql&quot;&gt;Database population&#x2F;sample data&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Queries &amp;amp; relational algebra
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;relational-algebra.md&quot;&gt;Relational algebra&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-queries.sql&quot;&gt;Sample queries&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;query-explaination.md&quot;&gt;Query explanation&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;OLAP queries and triggers
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-olap.sql&quot;&gt;OLAP queries&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-triggers.sql&quot;&gt;Triggers&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Transactions
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;zuber-transactions.sql&quot;&gt;Transactions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;transaction-explaination.md&quot;&gt;Transaction explaination&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;tree&#x2F;main&#x2F;CLI&quot;&gt;Zuber CLI&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;user-guide.md&quot;&gt;User guide&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Zuber&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Zuber&#x2F;blob&#x2F;main&#x2F;LICENSE&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt;</content>
+    </entry>
+    <entry xml:lang="en">
+        <title>simasm - Simulator &amp; Assembler for custom ISA</title>
+        <published>2022-06-26T00:00:00+00:00</published>
+        <updated>2022-06-26T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/assembler-simulator/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/assembler-simulator/</id>
+        <content type="html">&lt;p&gt;Developed an assembler to convert assembly code adhering to a particular ISA into bytecode, alongside a simulator for dynamic execution of the bytecode. The simulator displays the memory layout at each stage of execution.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Simple-assembler-and-simulator&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;</content>
+    </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - extention</title>
+    <link href="https://hyouteki.github.io/tags/extention/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-02-14T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/extention/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Wikiracing - Chromium Extension</title>
+        <published>2024-02-14T00:00:00+00:00</published>
+        <updated>2024-02-14T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/wikiracing/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/wikiracing/</id>
+        <content type="html">&lt;p&gt;A chromium extension for facilitating &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Wikiracing&quot;&gt;wikiracing&lt;&#x2F;a&gt; among participants.&lt;&#x2F;p&gt;
+&lt;img src=&quot;.&#x2F;thumbnail.png&quot; width=&quot;1200&quot;&#x2F;&gt;
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Download and extract &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&#x2F;archive&#x2F;refs&#x2F;heads&#x2F;main.zip&quot;&gt;ZIP&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Navigate to extensions on your chromium browser.&lt;&#x2F;li&gt;
+&lt;li&gt;Enable &lt;code&gt;developer mode&lt;&#x2F;code&gt;.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;e94d071c-6b41-4acb-871e-61f056e41d5f&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Click &lt;code&gt;load-unpacked&lt;&#x2F;code&gt;.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;cea87e65-c31b-4016-aed4-499fca609b44&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Enable wiki racing extension.
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;wikiracing&#x2F;assets&#x2F;108230497&#x2F;7e5730f1-e19b-467f-9709-1e77ec5a3068&quot; width=&quot;1200&quot;&#x2F;&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Pin the extension for ease of use.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt;
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;wikiracing&#x2F;archive&#x2F;refs&#x2F;heads&#x2F;main.zip&quot; style=&quot;margin: 10px;&quot;&gt;Download ZIP&lt;&#x2F;a&gt;</content>
+    </entry>
+</feed>

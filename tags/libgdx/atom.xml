@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Ninthcircle - libgdx</title>
+    <link href="https://hyouteki.github.io/tags/libgdx/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://hyouteki.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-14T00:00:00+00:00</updated>
+    <id>https://hyouteki.github.io/tags/libgdx/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Colosseum of Tanks - Game</title>
+        <published>2023-01-14T00:00:00+00:00</published>
+        <updated>2023-01-14T00:00:00+00:00</updated>
+        <author>
+          <name>hyouteki</name>
+        </author>
+        <link rel="alternate" href="https://hyouteki.github.io/projects/colosseum-of-tanks/" type="text/html"/>
+        <id>https://hyouteki.github.io/projects/colosseum-of-tanks/</id>
+        <content type="html">&lt;p&gt;A desktop 2-player tank shooter game in Java using the libGDX library. Mock-up of the original Tank Stars game. With features such as music, game saving, item drops, and multiple tanks and missiles.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;bash&quot; class=&quot;language-bash z-code&quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;z-source z-shell z-bash&quot;&gt;&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;git&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; clone https:&#x2F;&#x2F;github.com&#x2F;Hyouteki&#x2F;Colosseum-of-Tanks.git&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-support z-function z-cd z-shell&quot;&gt;cd&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; Colosseum-of-Tanks&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;chmod&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; +x gradlew&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;.&#x2F;gradlew&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; desktop:dist&lt;&#x2F;span&gt;
+&lt;span class=&quot;z-meta z-function-call z-shell&quot;&gt;&lt;span class=&quot;z-variable z-function z-shell&quot;&gt;.&#x2F;gradlew&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-arguments z-shell&quot;&gt; desktop:run&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;choose-tank-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;drop-game-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;game-over-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;pause-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;select-saved-game-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;screenshots&#x2F;start-screen.png?raw=true&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;courtesy&quot;&gt;Courtesy&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inspiration: Tank stars&lt;&#x2F;li&gt;
+&lt;li&gt;Assets: Tank stars&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;br&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&quot; style=&quot;margin: 10px;&quot;&gt;Repository&lt;&#x2F;a&gt; 
+&lt;a class=&quot;inline-button&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hyouteki&#x2F;Colosseum-of-Tanks&#x2F;blob&#x2F;main&#x2F;LICENSE.md&quot; style=&quot;margin: 10px;&quot;&gt;License MIT&lt;&#x2F;a&gt; 
+</content>
+    </entry>
+</feed>
